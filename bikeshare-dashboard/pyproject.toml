@@ -1,0 +1,14 @@
+[project]
+name = "bikeshare-dashboard"
+version = "0.1.0"
+description = "Streamlit dashboard for the Fleet Operations Manager of Capital Bikeshare"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+    "streamlit>=1.63.0",
+]
+
+[tool.uv]
+package = false
